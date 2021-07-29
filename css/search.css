@@ -1,0 +1,25 @@
+.search {
+  position: relative;
+  max-inline-size: 10.125rem;
+  inline-size: 100%;
+  /* block-size: 2.5rem; */
+}
+
+.search i {
+  position: absolute;
+  font-size: 1rem;
+  left: 16px;
+  top: calc(50% - .5rem);
+  vertical-align: middle;
+}
+
+.search input {
+  padding: .625rem;
+  padding-inline-start: 2.5rem;
+  padding-inline-end: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  background: var(--gray10);
+  font: var(--body1-regular);
+}

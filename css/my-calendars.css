@@ -1,0 +1,49 @@
+.myCalendars {
+
+}
+
+.myCalendars-text {
+  font: var(--body1-medium);
+  color: var(--gray30);
+  display: flex;
+  gap: 4rem;
+  max-inline-size: 12.25rem;
+  inline-size: 100%;
+  margin-block-end: .5rem;
+}
+
+.myCalendars-text p {
+  margin: 0;
+}
+
+.myCalendars i {
+  font-size: 1.5rem;
+  color: var(--gray50);
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.myCalendars ul {
+  margin: 0;
+  padding: 0;
+}
+
+.myCalendars ul li {
+  font: var(--body1-regular);
+  color: var(--gray30);
+  padding-block-end: .75rem;
+  list-style: none;
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+  .myCalendars ul li {
+    color: white;
+  }
+
+  .miniCalendar-weekDay {
+    color: white;
+  }
+}
+
+
